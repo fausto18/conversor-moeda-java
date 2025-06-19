@@ -6,7 +6,7 @@ Um programa de conversão de moedas via console, escrito em Java, que permite ao
 
 ## 📌 Funcionalidades
 
-- Menu interativo via console com 6 opções de conversão:
+- app.Menu interativo via console com 6 opções de conversão:
   - USD ↔ ARS
   - USD ↔ BRL
   - USD ↔ COP
@@ -43,7 +43,7 @@ Coloque-o na pasta /lib
 
 No IntelliJ: File > Project Structure > Modules > Dependencies > + > JARs or directories e adicione gson-2.10.1.jar
 
-Execute a classe ConversorApp.java
+Execute a classe app.ConversorApp.java
 
 🔑 Chave da API
 Este projeto utiliza a API da ExchangeRate API, que requer uma chave de acesso (API key).
@@ -65,11 +65,11 @@ Conversor_moeda/
 ├── src/
 │   ├── config/
 │   │   └── Config.java          # Armazena a chave da API
-│   ├── ApiService.java          # Requisições à API de câmbio
-│   ├── ConversorApp.java        # Classe principal (main)
-│   ├── ConversorMoeda.java      # Controla as conversões
-│   ├── Menu.java                # Exibe o menu e trata escolhas
-│   └── Util.java                # Leitura segura de input
+│   ├── app.ApiService.java          # Requisições à API de câmbio
+│   ├── app.ConversorApp.java        # Classe principal (main)
+│   ├── app.ConversorMoeda.java      # Controla as conversões
+│   ├── app.Menu.java                # Exibe o menu e trata escolhas
+│   └── app.Util.java                # Leitura segura de input
 ├── lib/
 │   └── gson-2.10.1.jar          # Biblioteca para ler JSON
 └── README.md

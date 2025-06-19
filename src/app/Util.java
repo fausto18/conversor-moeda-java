@@ -1,3 +1,5 @@
+package app;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -6,7 +8,7 @@ public class Util {
         try {
             return scanner.nextInt();
         } catch (InputMismatchException e) {
-            scanner.nextLine(); // Limpa entrada
+            scanner.nextLine();
             System.out.println("Entrada inválida. Digite um número inteiro.");
             return -1;
         }
