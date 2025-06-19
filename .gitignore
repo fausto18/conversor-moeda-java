@@ -1,0 +1,23 @@
+# === Sistema ===
+.DS_Store
+Thumbs.db
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+out/
+
+# === Compilados Java ===
+*.class
+*.log
+
+# === Bibliotecas externas (opcional, se baixar jars externamente) ===
+lib/*.jar
+
+# === Arquivos temporários ===
+*.swp
+*.tmp
+
+# === Configuração do sistema operacional ===
+*.bak
+*.orig
