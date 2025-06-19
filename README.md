@@ -7,9 +7,9 @@ Um programa de conversão de moedas via console, escrito em Java, que permite ao
 ## 📌 Funcionalidades
 
 - app.Menu interativo via console com 6 opções de conversão:
-  - USD ↔ ARS
+  - AOA ↔ USD
   - USD ↔ BRL
-  - USD ↔ COP
+  - AOA ↔ BRL
 - Conversão em tempo real usando [ExchangeRate API](https://www.exchangerate-api.com/).
 - Tratamento de entradas inválidas do usuário.
 - Estrutura modular com separação de responsabilidades.
